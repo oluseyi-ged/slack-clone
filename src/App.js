@@ -1,11 +1,11 @@
 import "./App.css"
+import Header from "./Header"
 
 function App() {
   return (
     <div className="app">
-      <h1>slack today</h1>
-
       {/* Header */}
+      <Header />
       {/* Sidebar */}
       {/* React Router => chat screens */}
     </div>

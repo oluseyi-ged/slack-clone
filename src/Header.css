@@ -1,0 +1,53 @@
+.header,
+.header__left,
+.header__search,
+.header__right {
+  display: flex;
+}
+
+.header {
+  justify-content: space-between;
+  padding: 10px 0;
+  color: white;
+  background-color: var(--slack-color);
+  align-items: center;
+}
+
+.header__left {
+  flex: 0.3;
+  margin-left: 20px;
+  align-items: center;
+}
+
+.header__left > .MuiSvgIcon-root {
+  margin-left: 30px;
+  margin-right: auto;
+}
+
+.header__search {
+  flex: 0.4;
+  background-color: #421f44;
+  text-align: center;
+  padding: 0 50px;
+  color: gray;
+  border: 1px gray solid;
+  border-radius: 6px;
+  align-items: center;
+}
+
+.header__search > input {
+  border: none;
+  background-color: transparent;
+  text-align: center;
+  min-width: 30vw;
+}
+
+.header__right {
+  flex: 0.3;
+  align-items: flex-end;
+}
+
+.header__right > .MuiSvgIcon-root {
+  margin-left: auto;
+  margin-right: 20px;
+}
